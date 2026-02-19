@@ -1,0 +1,9 @@
+server:
+  port: 8080
+database:
+  dsn:  "mysql://root:Vanshika@9@localhost:5432/test?sslmode=disable"
+redis:
+  addr: "localhost:6379"
+jwt:
+  private_key:  "./private.pem"
+  public_key: "./public.pem"
